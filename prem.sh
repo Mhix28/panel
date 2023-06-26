@@ -3,9 +3,9 @@ error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 
 $DB_host = '185.61.137.174';
-$DB_user = 'firenetv_legitvpnpanel';
-$DB_pass = 'panellegitvpn';
-$DB_name = 'firenetv_legitvpnpanel';
+$DB_user = 'firenetv_mtk';
+$DB_pass = '@@@@F1r3n3t';
+$DB_name = 'firenetv_mtk';
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
 if ($mysqli->connect_error) {
